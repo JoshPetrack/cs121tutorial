@@ -10,4 +10,6 @@
 
 @interface JPViewController : UIViewController
 
+- (IBAction)showAlert;
+
 @end
