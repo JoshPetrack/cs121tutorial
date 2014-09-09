@@ -97,4 +97,8 @@
     [self updateLabels];
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 @end

@@ -40,6 +40,10 @@
                             dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 /*
 #pragma mark - Navigation
 
@@ -50,5 +54,7 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
 
 @end
