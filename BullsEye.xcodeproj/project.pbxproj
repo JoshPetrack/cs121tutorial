@@ -21,6 +21,7 @@
 		030A162119B969EE00E9A448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030A160319B969EE00E9A448 /* UIKit.framework */; };
 		030A162919B969EE00E9A448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030A162719B969EE00E9A448 /* InfoPlist.strings */; };
 		030A162B19B969EE00E9A448 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030A162A19B969EE00E9A448 /* BullsEyeTests.m */; };
+		030A163619BEA32A00E9A448 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030A163519BEA32A00E9A448 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		030A162619B969EE00E9A448 /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		030A162819B969EE00E9A448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		030A162A19B969EE00E9A448 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		030A163419BEA32A00E9A448 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		030A163519BEA32A00E9A448 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				030A161119B969EE00E9A448 /* Main.storyboard */,
 				030A161419B969EE00E9A448 /* JPViewController.h */,
 				030A161519B969EE00E9A448 /* JPViewController.m */,
+				030A163419BEA32A00E9A448 /* AboutViewController.h */,
+				030A163519BEA32A00E9A448 /* AboutViewController.m */,
 				030A161719B969EE00E9A448 /* Images.xcassets */,
 				030A160619B969EE00E9A448 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				030A161019B969EE00E9A448 /* JPAppDelegate.m in Sources */,
 				030A161619B969EE00E9A448 /* JPViewController.m in Sources */,
+				030A163619BEA32A00E9A448 /* AboutViewController.m in Sources */,
 				030A160C19B969EE00E9A448 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
