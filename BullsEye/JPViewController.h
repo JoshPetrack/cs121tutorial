@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JPViewController : UIViewController
+@interface JPViewController : UIViewController <UIAlertViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UISlider *slider;
 @property (nonatomic, weak) IBOutlet UILabel *targetLabel;
