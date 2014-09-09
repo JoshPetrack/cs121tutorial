@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self startNewRound];
+    [self startNewGame];
     [self updateLabels];
 }
 
@@ -30,6 +30,12 @@
     _round += 1;
     _targetValue = 1 + arc4random_uniform(100);
     self.slider.value = _currentValue;
+}
+
+- (void)startNewGame {
+    _score = 0;
+    _round = 0;
+    [self startNewRound];
 }
 
 - (void)updateLabels {
@@ -79,6 +85,10 @@
 
 - (IBAction)sliderMoved:(UISlider *)slider {
     _currentValue = lroundf(slider.value); }
+
+- (IBAction)startOver {
+    [self startNewGame];
+    [self updateLabels]; }
 
 - (void)alertView:(UIAlertView *)alertView
             didDismissWithButtonIndex:(NSInteger)buttonIndex
